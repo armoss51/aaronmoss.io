@@ -66,6 +66,7 @@ h1 {
 
 footer {
     border-top: 0.15em solid whitesmoke;
+    margin-top: 2em;
 }
 
 .home-content article {
@@ -74,9 +75,12 @@ footer {
     padding-bottom: 1.7rem
 }
 
-.home-content {
+.page-content {
     float: left;
     width: 65%;
+    border-left: 0.1em solid whitesmoke;
+    margin-top: 2em;
+    padding-left: 0.5em;
 }
 
 .page {
@@ -89,6 +93,7 @@ footer {
 #jan27-1 {  
     width: 50%;
     box-shadow: 0 0 0.5em whitesmoke;
+    margin-top: 
 }
 
 .center {

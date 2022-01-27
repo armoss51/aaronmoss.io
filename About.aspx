@@ -41,9 +41,9 @@
                 </div>
             </header>
             <%-- MAIN PAGE BODY BEGIN --%>
-            <div class="about-content">
+            <div class="page-content">
                 <h1>About Me</h1>
-                <p>Under construction. Check back soon.</p>
+                <p class="center">Under construction. Check back soon.</p>
             </div>
             <footer id="footer">
                 <p>

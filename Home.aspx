@@ -41,7 +41,7 @@
                 </div>
             </header>
             <%-- MAIN PAGE BODY BEGIN --%>
-            <div class="home-content">
+            <div class="page-content">
                 <article id="post-1">
                     <h1>Testing things out in HTML/CSS</h1>
                     <div class="entry-content">
@@ -56,10 +56,22 @@
                         </p>
                         <p class="center">
                             <img src="Images/SiteScreenShots/Jan27-1.PNG" id="jan27-1" alt="Screenshot of site on January 27, 2022"/>
-                            <p class="center">Screenshot from 1/27/2022</p>
+                            <p class="center">Screenshot from 1/27/2022</p><br />
                         </p>
                         <p>
-
+                            I'm also taking this opportunity to get more comfortable with git. As such this site will be pushed to an open repository on 
+                            my <a href="https://github.com/armoss51/aaronmoss.io" target="_blank">GitHub</a>. Feel free to reach out if you have any suggestions, but please remember before you criticize that I do not 
+                            consider myself a pro in any regard and am simply learning.
+                        </p>
+                        <p>
+                            To-Do list:
+                        </p>
+                        <p>
+                            <ul>
+                                <li>Sidebar with search function?</li>
+                                <li>Complete <a href="About.aspx">About Me</a> page.</li>
+                                <li>Get the <a href="Contact.aspx">Contact</a> page looking nicer and functioning.</li>
+                            </ul>
                         </p>
                     </div>
                 </article>

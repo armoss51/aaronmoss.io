@@ -1,0 +1,96 @@
+﻿body {
+    background-color: #3e3e3e;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*Format links*/
+a {
+    text-decoration: none;
+    color: #FE5C00;
+}
+
+.masthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    border-bottom: 0.15em solid whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navigation ul,
+.social ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.social li {
+    width: 3em;
+    display: inline-block;
+}
+
+#twitter,
+#github,
+#linkedin,
+#codepen,
+#twitch {
+    width: 2em;
+    height: 2em;
+}
+
+.navigation li {
+    width: 5em;
+    display: inline-block;
+}
+
+.contactform {
+    display: block;
+    text-align: center;
+    border: 2px solid #FE5C00;
+    margin: 5em;
+}
+
+/*Format footer*/
+#footer {
+    display: table;
+    text-align: center;
+}
+
+footer {
+    border-top: 0.15em solid whitesmoke;
+}
+
+.home-content article {
+    border-bottom: 0.5em double;
+    margin-bottom: 5rem;
+    padding-bottom: 1.7rem
+}
+
+.home-content {
+    float: left;
+    width: 65%;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#jan27-1 {  
+    width: 50%;
+    box-shadow: 0 0 0.5em whitesmoke;
+}
+
+.center {
+    text-align: center;
+}

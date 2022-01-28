@@ -98,3 +98,18 @@ footer {
 .center {
     text-align: center;
 }
+
+.contact-flex,
+.about-flex,
+.home-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    float: right;
+    border-left: 0.1em solid whitesmoke;
+    margin-left: 3em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}

@@ -41,12 +41,17 @@
                 </div>
             </header>
             <%-- MAIN PAGE BODY BEGIN --%>
-            <div class="contactform">
-                <input id="userName" type="text" placeholder="Name" required="required" />
-                <input id="userEmail" type="text" placeholder="Email" required="required" />
-                <input id="subject" type="text" placeholder="Subject" required="required" />
-                <input id="message" type="text" placeholder="Message" required="required" />
-                <input id="submit" type="button" value="Submit" />
+            <div class="contact-flex">
+                <div class="contactform">
+                    <input id="userName" type="text" placeholder="Name" required="required" />
+                    <input id="userEmail" type="text" placeholder="Email" required="required" />
+                    <input id="subject" type="text" placeholder="Subject" required="required" />
+                    <input id="message" type="text" placeholder="Message" required="required" />
+                    <input id="submit" type="button" value="Submit" />
+                </div>
+                <div class="sidebar">
+                    <input id="Text1" type="text" placeholder="Search" />
+                </div>
             </div>
             <footer id="footer">
                 <p>

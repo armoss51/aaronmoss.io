@@ -17,7 +17,7 @@
             <header id="masthead">
                 <div id="home-header">
                     <h1>Aaron Moss</h1>
-                    <h2>Alaways Learning</h2>
+                    <h2>Always Learning</h2>
                 </div>
                 <div class="social">
                     <ul>

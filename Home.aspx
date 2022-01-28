@@ -43,6 +43,9 @@
             <%-- MAIN PAGE BODY BEGIN --%>
             <div class="home-flex">
                 <div class="page-content">
+                    <article id="post-">
+
+                    </article>
                     <article id="post-1">
                         <h1>Testing things out in HTML/CSS</h1>
                         <div class="entry-content">

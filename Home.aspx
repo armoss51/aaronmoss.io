@@ -64,13 +64,11 @@
                         <p>
                             To-Do list:
                         </p>
-                        <p>
-                            <ul>
-                                <li>Sidebar with search function?</li>
-                                <li>Complete <a href="About.aspx">About Me</a> page.</li>
-                                <li>Get the <a href="Contact.aspx">Contact</a> page looking nicer and functioning.</li>
-                            </ul>
-                        </p>
+                        <ul>
+                            <li>Sidebar with search function?</li>
+                            <li>Complete <a href="About.aspx">About Me</a> page.</li>
+                            <li>Get the <a href="Contact.aspx">Contact</a> page looking nicer and functioning.</li>
+                        </ul>
                     </div>
                 </article>
             </div>

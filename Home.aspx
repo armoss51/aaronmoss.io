@@ -5,11 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Aaron Moss</title>
-    <link rel="icon" href="<img src="Images/Mlogo.png" />
+    <link rel="icon" href="Images/Mlogo.png" />
     <link href="AMIO-CSS.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -54,10 +54,8 @@
                         visual record of the progress. At this time I am only using HTML and CSS. I will be moving on to learning bootstrap soon. Other goals include ASP.NET Web Forms, server controls, 
                         creating a SQL Server database and connecting it to the site.
                         </p>
-                        <p class="center">
-                            <img src="Images/SiteScreenShots/Jan27-1.PNG" id="jan27-1" alt="Screenshot of site on January 27, 2022"/>
-                            <p class="center">Screenshot from 1/27/2022</p><br />
-                        </p>
+                        <img src="Images/SiteScreenShots/Jan27-1.PNG" id="jan27-1" alt="Screenshot of site on January 27, 2022" text-align="center" />
+                        <figcaption class="center">Screenshot from 1/27/2022</figcaption><br />
                         <p>
                             I'm also taking this opportunity to get more comfortable with git. As such this site will be pushed to an open repository on 
                             my <a href="https://github.com/armoss51/aaronmoss.io" target="_blank">GitHub</a>. Feel free to reach out if you have any suggestions, but please remember before you criticize that I do not 

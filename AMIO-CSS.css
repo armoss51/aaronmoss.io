@@ -114,7 +114,7 @@ footer {
 }
 
 .sidebar {
-    float: right;
+    float: right;    
     border-left: 0.1em solid whitesmoke;
     margin-left: 3em;
     padding-left: 0.5em;

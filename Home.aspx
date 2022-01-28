@@ -81,7 +81,9 @@
                     </article>
                 </div>
                 <div class="sidebar">
-                    <input id="Text1" type="text" placeholder="Search" />
+                    <input id="search" type="text" placeholder="Search" />
+                    <br /><br />
+                    <a class="twitter-timeline" data-width="300" data-height="750" data-theme="dark" href="https://twitter.com/Aaron_Moss_?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
                 </div>
             </div>
             <footer id="footer">

@@ -43,13 +43,7 @@
             <%-- MAIN PAGE BODY BEGIN --%>
             <div class="page-content">
                 <h1>About Me</h1>
-                <p class="center">Learning how to create a website step-by-step.</p>
-                <p class="center">Name: Aaron Moss</p>
-                <p class="center">Location: Tulsa, OK</p><br />
-                <p class="center">I'm currently attending Oklahoma State University studying MIS. I'm what they call a "non-traditional" student. I love learning how to code, and creating this site 
-                    seemed like the best way I could continually work on my skills. Outside of of work and family, I like to stream on <a href="https://www.twitch.tv/mossinatorr" target="_blank">Twitch</a> 
-                    while I simrace.</p>
-                <p class="center">Not really sure what else to put in here right now. I'll try to make this better as we go.</p>
+                <p class="center">Under construction. Check back soon.</p>
             </div>
             <footer id="footer">
                 <p>

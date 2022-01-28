@@ -48,7 +48,7 @@
 
                     </article>
                     <article id="post-1">
-                        <h1 id="title">Testing things out in HTML/CSS</h1>
+                        <h1>Testing things out in HTML/CSS</h1>
                         <div class="entry-content">
                             <p><time class="entry-date" date="2022-01-27">January 27, 2022</time></p>
                             <p>
@@ -82,9 +82,8 @@
                 </div>
                 <div class="sidebar">
                     <input id="search" type="text" placeholder="Search" />
-                    <input id="Button1" type="button" value="Search" />
                     <br /><br />
-                    <a class="twitter-timeline" data-width="300" data-height="600" data-theme="dark" href="https://twitter.com/Aaron_Moss_?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+                    <a class="twitter-timeline" data-width="300" data-height="750" data-theme="dark" href="https://twitter.com/Aaron_Moss_?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
                 </div>
             </div>
             <footer id="footer">

@@ -1,0 +1,74 @@
+﻿@{
+    Validation.RequireField("postID", "You must enter a postID");
+    Validation.RequireField("title", "You must enter a title");
+    Validation.RequireField("content", "You must enter content");
+    Validation.RequireField("date", "You must enter a date");
+    Validation.RequireField("author", "You must enter an author");
+
+    var postID = "";
+    var title = "";
+    var content = "";
+    var date = "";
+    var author = "";
+
+    if (IsPost && Validation.IsValid())
+    {
+        postID = Request.Form["postID"];
+        title = Request.Form["title"];
+        content = Request.Form["content"];
+        date = Request.Form["date"];
+        author = Request.Form["author"];
+
+        var db = Database.Open("BlogDB");
+        var insertCommand = "INSERT INTO BlogPosts (postID, title, content, date, author) VALUES(@0, @1, @2, @3, @4)";
+        db.Execute(insertCommand, postID, title, content, date, author);
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Add a Post</title>
+</head>
+<body>
+    <h1>Add a Post</h1>
+    @Html.ValidationSummary()
+    <form method="post">
+        <fieldset>
+            <legend>Post Information</legend>
+            <p>
+                <label for="postID">Post ID:</label>
+                <input type="text" name="postID" value="@Request.Form["postID"]" />
+                @Html.ValidationMessage("postID")
+            </p>
+
+            <p>
+                <label for="title">Title:</label>
+                <input type="text" name="title" value="@Request.Form["title"]" />
+                @Html.ValidationMessage("title")
+            </p>
+
+            <p>
+                <label for="content">Content:</label>
+                <input type="text" name="content" value="@Request.Form["content"]" />
+                @Html.ValidationMessage("content")
+            </p>
+
+            <p>
+                <label for="date">Date:</label>
+                <input type="text" name="date" value="@Request.Form["date"]" />
+                @Html.ValidationMessage("date")
+            </p>
+
+            <p>
+                <label for="author">Author:</label>
+                <input type="text" name="author" value="@Request.Form["author"]" />
+                @Html.ValidationMessage("author")
+            </p>
+
+            <p><input type="submit" name="buttonSubmit" value="Add Post" /></p>
+        </fieldset>
+    </form>
+</body>
+</html>

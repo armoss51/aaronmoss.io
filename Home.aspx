@@ -92,6 +92,7 @@
                     Copyright &copy;
                     <script>document.write(new Date().getFullYear())</script>
                 </p>
+                <a href="insertPost.cshtml">insertPost</a>
             </footer>
         </div>
     </form>

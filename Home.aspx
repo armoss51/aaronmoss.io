@@ -48,7 +48,7 @@
 
                     </article>
                     <article id="post-1">
-                        <h1>Testing things out in HTML/CSS</h1>
+                        <h1 class="title">Testing things out in HTML/CSS</h1>
                         <div class="entry-content">
                             <p><time class="entry-date" date="2022-01-27">January 27, 2022</time></p>
                             <p>

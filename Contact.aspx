@@ -42,12 +42,13 @@
                 </div>
             </header>
             <%-- MAIN PAGE BODY BEGIN --%>
-            <div class="contact-flex">
+            <div class="contact-flex">                
                 <div class="contactform">
-                    <input id="userName" type="text" placeholder="Name" required="required" />
-                    <input id="userEmail" type="text" placeholder="Email" required="required" />
-                    <input id="subject" type="text" placeholder="Subject" required="required" />
-                    <input id="message" type="text" placeholder="Message" required="required" />
+                    <h3 class="contactTitle">Get in touch:</h3>
+                    <input id="userName" type="text" placeholder="Name" required="required" /><br />
+                    <input id="userEmail" type="text" placeholder="Email" required="required" /><br />
+                    <input id="subject" type="text" placeholder="Subject" required="required" /><br />
+                    <textarea rows= "5" cols="50" id="message" type="text" placeholder="Message" required="required"></textarea><br />
                     <input id="submit" type="button" value="Submit" />
                 </div>
                 <div class="sidebar">

@@ -58,11 +58,24 @@ h1 {
     display: inline-block;
 }
 
-.contactform {
-    display: block;
+.contactTitle{
     text-align: center;
-    border: 2px solid #FE5C00;
-    margin: 5em;
+    font-size: 2em;
+}
+
+.contactform {
+    border-left: 0.1em solid whitesmoke;
+    margin-top: 0;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#userName,
+#userEmail,
+#subject,
+#message,
+#submit {
+    margin: 2em;
 }
 
 /*Format footer*/
@@ -119,8 +132,4 @@ footer {
     margin-left: 3em;
     padding-left: 0.5em;
     padding-top: 0.5em;
-}
-
-.title {
-
 }

@@ -50,11 +50,13 @@
                     <p class="center">Location: Tulsa, OK</p>
                     <br />
                     <p class="center">
-                        I'm currently attending Oklahoma State University studying MIS. I'm what they call a "non-traditional" student. I love learning how to code, and creating this site 
-                    seemed like the best way I could continually work on my skills. Outside of of work and family, I like to stream on <a href="https://www.twitch.tv/mossinatorr" target="_blank">Twitch</a>
-                        while I simrace.
+                        Volutpat odio facilisis mauris sit amet massa vitae. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. In fermentum et 
+                        sollicitudin ac orci phasellus egestas tellus. Egestas diam in arcu cursus euismod quis. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar 
+                        sapien et. Massa vitae tortor condimentum lacinia quis vel.
                     </p>
-                    <p class="center">Not really sure what else to put in here right now. I'll try to make this better as we go.</p>
+                    <p class="center">
+                        Accumsan tortor posuere ac ut consequat. Nec ultrices dui sapien eget mi proin sed.
+                    </p>
                 </div>
                 <div class="sidebar">
                     <input id="search" type="text" placeholder="Search" />

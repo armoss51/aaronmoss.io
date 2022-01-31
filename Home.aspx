@@ -10,9 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-    <script src="Scripts/bootstrap.min.js"></script>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -84,10 +81,9 @@
                     </article>
                 </div>
                 <div class="sidebar">
-                    <input type="text" placeholder="Search" />
-                    <input type="button" value="Search" class="btn" />
+                    <input id="search" type="text" placeholder="Search" />
                     <br /><br />
-                    <a class="twitter-timeline" data-width="300" data-height="750" data-theme="dark" href="https://twitter.com/Aaron_Moss_?ref_src=twsrc%5Etfw"></a> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+                    <a class="twitter-timeline" data-width="300" data-height="750" data-theme="dark" href="https://twitter.com/Aaron_Moss_?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
                 </div>
             </div>
             <footer id="footer">

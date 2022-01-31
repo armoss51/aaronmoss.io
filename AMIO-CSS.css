@@ -1,12 +1,12 @@
-﻿body {
+﻿/*body {
     background-color: #3e3e3e;
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-}
+}*/
 
 /*Format links*/
-a {
+/*a {
     text-decoration: none;
     color: #FE5C00;
 }
@@ -76,10 +76,10 @@ h1 {
 #message,
 #submit {
     margin: 2em;
-}
+}*/
 
 /*Format footer*/
-#footer {
+/*#footer {
     display: table;
     text-align: center;
 }
@@ -132,4 +132,4 @@ footer {
     margin-left: 3em;
     padding-left: 0.5em;
     padding-top: 0.5em;
-}
+}*/
